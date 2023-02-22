@@ -1,0 +1,31 @@
+{
+  "name": "pslipe_biblioteca_checalink",
+  "version": "1.0.0",
+  "description": "Bilioteca que busca links em arquivos '.MD' e retorna um arrey de objetos com esses links e seus status",
+  "main": "cli.js",
+  "type": "module",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli" : "node src/cli.js ./arquivos/texto.md",
+    "cli:valida" : "node src/cli.js ./arquivos/texto.md --valida"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alura-cursos/2708-node-lib-md.git"
+  },
+  "keywords": ["markdown", "URL"],
+  "author": "Felipe Pereira Silva Bianchine",
+  "license": "ISC",
+  "bugs": {
+    "url" : "https://github.com/pslipe/biblioteca-checa-link.git",
+   "email" : "engenheiro.felipepereira@gmail.com"
+  },
+  "homepage": "https://github.com/pslipe/biblioteca-checa-link.git",
+  "dependencies": {
+    "chalk": "5.0.1"
+  },
+  "bin": {
+    "pslipe_biblioteca_checalink": "./cli.js"
+  }
+}
